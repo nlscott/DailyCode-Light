@@ -1,0 +1,36 @@
+{
+  "name": "dailycode-light",
+  "displayName": "DailyCode Light",
+  "description": "Light theme based on DailyPay",
+  "version": "1.0.1",
+  "publisher": "NicScott",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "pay",
+    "light",
+    "DailyPay",
+    "Code",
+    "Orange"
+],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DailyCode Light",
+        "uiTheme": "vs",
+        "path": "./themes/DailyCode Light-color-theme.json"
+      }
+    ]
+  },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nlscott/DailyCode-Light"
+    },
+    "homepage": "https://github.com/nlscott/DailyCode-Light"
+}
